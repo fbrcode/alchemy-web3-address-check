@@ -1,0 +1,20 @@
+{
+  "name": "eth-address-checker",
+  "version": "1.0.0",
+  "description": "A simple script to check if an Ethereum address is wallet or contract",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "web3": "^4.1.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
